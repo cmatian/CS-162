@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C96B40421FA819840015259D /* Paper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C96B40321FA819840015259D /* Paper.cpp */; };
+		C96B40431FA819840015259D /* Rock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C96B40331FA819840015259D /* Rock.cpp */; };
+		C96B40441FA819840015259D /* Scissors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C96B40341FA819840015259D /* Scissors.cpp */; };
+		C96B40451FA819840015259D /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = C96B40351FA819840015259D /* Makefile */; };
+		C96B40461FA819840015259D /* Menu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C96B40361FA819840015259D /* Menu.cpp */; };
+		C96B40471FA819840015259D /* Play_Game_Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C96B40391FA819840015259D /* Play_Game_Main.cpp */; };
+		C96B40481FA819840015259D /* RPS_Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C96B403B1FA819840015259D /* RPS_Game.cpp */; };
+		C96B40491FA819840015259D /* Tool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C96B403E1FA819840015259D /* Tool.cpp */; };
+		C96B404A1FA819840015259D /* Utility_Functions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C96B40401FA819840015259D /* Utility_Functions.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C96B40261FA819710015259D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C96B40281FA819710015259D /* test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = test; sourceTree = BUILT_PRODUCTS_DIR; };
+		C96B40321FA819840015259D /* Paper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Paper.cpp; path = "../../Group Project/RPS_Game/RPS_Group_Project/Paper.cpp"; sourceTree = "<group>"; };
+		C96B40331FA819840015259D /* Rock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Rock.cpp; path = "../../Group Project/RPS_Game/RPS_Group_Project/Rock.cpp"; sourceTree = "<group>"; };
+		C96B40341FA819840015259D /* Scissors.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Scissors.cpp; path = "../../Group Project/RPS_Game/RPS_Group_Project/Scissors.cpp"; sourceTree = "<group>"; };
+		C96B40351FA819840015259D /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; name = Makefile; path = "../../Group Project/RPS_Game/RPS_Group_Project/Makefile"; sourceTree = "<group>"; };
+		C96B40361FA819840015259D /* Menu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Menu.cpp; path = "../../Group Project/RPS_Game/RPS_Group_Project/Menu.cpp"; sourceTree = "<group>"; };
+		C96B40371FA819840015259D /* Menu.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Menu.hpp; path = "../../Group Project/RPS_Game/RPS_Group_Project/Menu.hpp"; sourceTree = "<group>"; };
+		C96B40381FA819840015259D /* Paper.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Paper.hpp; path = "../../Group Project/RPS_Game/RPS_Group_Project/Paper.hpp"; sourceTree = "<group>"; };
+		C96B40391FA819840015259D /* Play_Game_Main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Play_Game_Main.cpp; path = "../../Group Project/RPS_Game/RPS_Group_Project/Play_Game_Main.cpp"; sourceTree = "<group>"; };
+		C96B403A1FA819840015259D /* Rock.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Rock.hpp; path = "../../Group Project/RPS_Game/RPS_Group_Project/Rock.hpp"; sourceTree = "<group>"; };
+		C96B403B1FA819840015259D /* RPS_Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RPS_Game.cpp; path = "../../Group Project/RPS_Game/RPS_Group_Project/RPS_Game.cpp"; sourceTree = "<group>"; };
+		C96B403C1FA819840015259D /* RPS_Game.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = RPS_Game.hpp; path = "../../Group Project/RPS_Game/RPS_Group_Project/RPS_Game.hpp"; sourceTree = "<group>"; };
+		C96B403D1FA819840015259D /* Scissors.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Scissors.hpp; path = "../../Group Project/RPS_Game/RPS_Group_Project/Scissors.hpp"; sourceTree = "<group>"; };
+		C96B403E1FA819840015259D /* Tool.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Tool.cpp; path = "../../Group Project/RPS_Game/RPS_Group_Project/Tool.cpp"; sourceTree = "<group>"; };
+		C96B403F1FA819840015259D /* Tool.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Tool.hpp; path = "../../Group Project/RPS_Game/RPS_Group_Project/Tool.hpp"; sourceTree = "<group>"; };
+		C96B40401FA819840015259D /* Utility_Functions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Utility_Functions.cpp; path = "../../Group Project/RPS_Game/RPS_Group_Project/Utility_Functions.cpp"; sourceTree = "<group>"; };
+		C96B40411FA819840015259D /* Utility_Functions.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Utility_Functions.hpp; path = "../../Group Project/RPS_Game/RPS_Group_Project/Utility_Functions.hpp"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C96B40251FA819710015259D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C96B401F1FA819710015259D = {
+			isa = PBXGroup;
+			children = (
+				C96B402A1FA819710015259D /* test */,
+				C96B40291FA819710015259D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C96B40291FA819710015259D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C96B40281FA819710015259D /* test */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C96B402A1FA819710015259D /* test */ = {
+			isa = PBXGroup;
+			children = (
+				C96B40321FA819840015259D /* Paper.cpp */,
+				C96B40331FA819840015259D /* Rock.cpp */,
+				C96B40341FA819840015259D /* Scissors.cpp */,
+				C96B40351FA819840015259D /* Makefile */,
+				C96B40361FA819840015259D /* Menu.cpp */,
+				C96B40371FA819840015259D /* Menu.hpp */,
+				C96B40381FA819840015259D /* Paper.hpp */,
+				C96B40391FA819840015259D /* Play_Game_Main.cpp */,
+				C96B403A1FA819840015259D /* Rock.hpp */,
+				C96B403B1FA819840015259D /* RPS_Game.cpp */,
+				C96B403C1FA819840015259D /* RPS_Game.hpp */,
+				C96B403D1FA819840015259D /* Scissors.hpp */,
+				C96B403E1FA819840015259D /* Tool.cpp */,
+				C96B403F1FA819840015259D /* Tool.hpp */,
+				C96B40401FA819840015259D /* Utility_Functions.cpp */,
+				C96B40411FA819840015259D /* Utility_Functions.hpp */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C96B40271FA819710015259D /* test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C96B402F1FA819710015259D /* Build configuration list for PBXNativeTarget "test" */;
+			buildPhases = (
+				C96B40241FA819710015259D /* Sources */,
+				C96B40251FA819710015259D /* Frameworks */,
+				C96B40261FA819710015259D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = test;
+			productName = test;
+			productReference = C96B40281FA819710015259D /* test */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C96B40201FA819710015259D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Christopher Matian";
+				TargetAttributes = {
+					C96B40271FA819710015259D = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C96B40231FA819710015259D /* Build configuration list for PBXProject "test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C96B401F1FA819710015259D;
+			productRefGroup = C96B40291FA819710015259D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C96B40271FA819710015259D /* test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C96B40241FA819710015259D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C96B40431FA819840015259D /* Rock.cpp in Sources */,
+				C96B40441FA819840015259D /* Scissors.cpp in Sources */,
+				C96B40451FA819840015259D /* Makefile in Sources */,
+				C96B40421FA819840015259D /* Paper.cpp in Sources */,
+				C96B40471FA819840015259D /* Play_Game_Main.cpp in Sources */,
+				C96B404A1FA819840015259D /* Utility_Functions.cpp in Sources */,
+				C96B40461FA819840015259D /* Menu.cpp in Sources */,
+				C96B40481FA819840015259D /* RPS_Game.cpp in Sources */,
+				C96B40491FA819840015259D /* Tool.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C96B402D1FA819710015259D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C96B402E1FA819710015259D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C96B40301FA819710015259D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C96B40311FA819710015259D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C96B40231FA819710015259D /* Build configuration list for PBXProject "test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C96B402D1FA819710015259D /* Debug */,
+				C96B402E1FA819710015259D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C96B402F1FA819710015259D /* Build configuration list for PBXNativeTarget "test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C96B40301FA819710015259D /* Debug */,
+				C96B40311FA819710015259D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C96B40201FA819710015259D /* Project object */;
+}
